@@ -1,5 +1,7 @@
 
 import { createApp } from 'vue';
-import App from './App.vue';
+import CountButton from './components/count_button.vue';
+import Sidebar from './components/sidebar.vue';
 
-createApp(App).mount('#app');
+createApp(CountButton).mount('#vue-count-button');
+createApp(Sidebar).mount('#vue-sidebar')

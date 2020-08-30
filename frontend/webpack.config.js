@@ -4,7 +4,6 @@ const BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = (env = {}) => {
   return {
-
     mode: env.prod ? 'production' : 'development',
     devtool: env.prod ? 'source-map' : 'cheap-module-eval-source-map',
     entry: path.resolve(__dirname, './src/main.ts'),
